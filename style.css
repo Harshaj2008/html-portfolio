@@ -1,19 +1,28 @@
-html{
-    background-color: black;
+.project {
+    float: left;
+    border: 5px solid #ced4da; /* Added border to .project */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: whitesmoke; /* Lime background color */
+    transition: transform 0.3s ease-in-out;
 }
-h1{
+
+.second-project {
+    float: right;
+    border: 5px solid #ced4da; /* Added border to .second-project */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: whitesmoke; /* Lime background color */
+    transition: transform 0.3s ease-in-out;
+}
+hr{
+    clear: both;
+}
+.pricing{
     text-align: center;
-    color: whitesmoke;
 }
-.web{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-div{
-    text-align: center;
-}
-h2{
-    color: whitesmoke;
-}
+/* Other styles remain unchanged */
